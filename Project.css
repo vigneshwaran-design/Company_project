@@ -1,0 +1,45 @@
+
+.head{
+    text-align: center;
+    /* position: fixed; */
+}
+.head img{
+    height:140px;
+    width:40%;
+    padding:0;
+    /* text-align:center; */
+}
+.container{
+    position:fixed;
+    overflow:hidden;
+}
+.card{
+   margin-top:2%;
+   margin-left: 10%;;
+   width:80%;
+   
+   background-image:linear-gradient(to bottom,#168aad,white) !important;
+   /* overflow:scroll; */
+   
+}
+label{
+    margin-left:1.7%;
+    /* font-weight:lighter; */
+}
+.checked{
+    color: Orange;
+}
+.icon{
+    margin-top:-25px;
+    letter-spacing:2px;
+    font-size:20px;
+}
+thead,td{
+    text-align:center;
+}
+.button{
+    display:flex;
+    padding:10px;
+   justify-content:center; 
+    font-size: 100px;
+}
